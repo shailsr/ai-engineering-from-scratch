@@ -1,0 +1,7 @@
+# Example SSH configuration for a future remote machine.
+Host local-practice
+    HostName localhost
+    User rathore
+    Port 22
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
